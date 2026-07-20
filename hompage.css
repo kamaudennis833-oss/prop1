@@ -1,0 +1,301 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fc; /* Light blue-gray background */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #2a3d66; /* Dark blue for headings */
+}
+
+/* Header */
+header {
+    background-color: #0056b3; /* Blue color */
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header img {
+    height: 50px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ffcc00; /* Yellow on hover */
+}
+
+header input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+/* Login Section */
+#login {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    width: 300px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#login h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#login form {
+    display: flex;
+    flex-direction: column;
+}
+
+#login label {
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+#login input[type="text"],
+#login input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+#login input[type="submit"],
+#login input[type="reset"] {
+    padding: 12px;
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#login input[type="submit"]:hover,
+#login input[type="reset"]:hover {
+    background-color: #6a0dad;
+}
+
+/* Announcement Banner */
+#announcement-banner {
+    background-color: #ffcc00;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Quick Links Section */
+#quick-links {
+    padding: 40px;
+    background-color: white;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+#quick-links h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+#quick-links ul li {
+    margin: 10px 0;
+}
+
+#quick-links ul li a {
+    font-size: 18px;
+    color: #0056b3;
+    transition: color 0.3s ease;
+}
+
+#quick-links ul li a:hover {
+    color: #ffcc00;
+}
+
+/* About Us Section */
+#about-us {
+    padding: 40px;
+    background-color: white;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1200px;
+}
+
+#about-us h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#about-us h2 {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+#about-us p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.faculty-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.faculty-profile img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.faculty-profile h3 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.faculty-profile p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Academics Section */
+#academics {
+    padding: 40px;
+    background-color: white;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1200px;
+}
+
+#academics h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#academics ul {
+    list-style: none;
+    padding: 0;
+}
+
+#academics ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    #search-bar {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #quick-links,
+    #about-us,
+    #academics {
+        padding: 20px;
+        width: 90%;
+    }
+
+    #quick-links h2,
+    #about-us h1,
+    #academics h1 {
+        font-size: 28px;
+    }
+
+    #quick-links ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+}

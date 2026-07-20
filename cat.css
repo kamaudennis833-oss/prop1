@@ -1,0 +1,8 @@
+body{
+    background-color: azure;
+}
+ul{
+    display: list-item;
+    background: fixed;
+    padding: 10px;
+}
